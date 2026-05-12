@@ -39,6 +39,42 @@
                 <li>Problem solving</li>
                 <li>Python</li>
             </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>skills</th>
+                        <th>current level</th>
+                        <th>time learning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>beginner</td>
+                        <td>1 month</td>
+                    </tr>
+                    <tr>
+                        <td>Css</td>
+                        <td>biginner</td>
+                        <td>1 month</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>beginner</td>
+                        <td>1 month</td>
+                    </tr>
+                    <tr>
+                        <td>problem solving</td>
+                        <td>beginner</td>
+                        <td>1 month</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>beginner</td>
+                        <td>1 month</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <section id="project">
@@ -61,6 +97,36 @@
 
         <section id="contact">
             <h2>Get in touch</h2>
+            <form id="contact-form">
+                <div class="form group">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="Name" placeholder="e.g Ejike Eleraobari"> <br>
+
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" placeholder="e.g ejikeeleraobari@gmail.com"> <br>
+
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="09000000000" pattern="[0-9]{11}"> <br>
+
+                    <select name="subject" id="subject">
+                        <option value="">--chose a subject--</option>
+                        <option value="general">general inquiry</option>
+                        <option value="project">project work</option>
+                        <option value="job">job opportunities</option>
+                    </select><br>
+
+                    <label><input type="radio" name="contact-method" value="email">email</label>
+                    <label><input type="radio" name="contact-method" value="phone">phone number</label>
+                    <label><input type="radio" name="contact-method" value="whatsapp">whatsapp</label><br>
+
+                    <textarea name="message" id="message" rows="6" placeholder="tell me about your project"></textarea><br>
+
+                    <label><input type="checkbox" name="terms" value="agreed required">I agree to be contacted about my enquires</label><br>
+
+                    <button type="submit">send message</button>
+
+                </div>
+            </form>
         </section>
     </main>
 
